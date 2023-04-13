@@ -1,0 +1,7 @@
+
+#users Schema
+create table users(
+Id varchar(10) primary key,
+Name varchar(20) not null,
+Password varchar(20) not null
+);
